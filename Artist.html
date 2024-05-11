@@ -1,0 +1,278 @@
+<!--Probably the least professional designer in the class maybe-->
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <!--Meta stuff deez nuts-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Art Person </title>  
+        <!--Page Aestheticsz-->
+        <style>
+            /*Requirement sake deez nuts*/
+            h1 {
+                text-shadow: 0 0 3px #b0ffce, 0 0 5px #f39cff;
+            }
+            /*Background color deez nuts*/
+            
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #ffffff;
+                color: #333;
+            }
+            /*header design deez nuts*/
+            header {
+                background-color: #69d1de;
+                color: #fff;
+                padding: 1rem;
+                text-align: center;
+            }
+            /* Main content style deez nuts */
+            .main-content {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+            /* Footer design deez nuts*/
+            footer {
+                text-align: center;
+                padding: 1rem;
+                background-color: #65a7b0;
+                color: #fff;
+            }
+            /* Navigation Stuffs */
+            .navbar {
+                background-color: #65a7b0;
+                font-family: Arial;
+                text-align: center;
+            }
+            /* navbar inside deez nuts */
+            .navbar a {
+                display: inline-block;
+                color: white;
+                border: none;
+                outline: none;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 16px;
+                box-sizing: content-box;
+            }
+
+            /* dropdown insides deez nuts  */
+            .dropdown {
+                display: inline-block;
+                
+            }
+            /* Dropdown button deez nuts*/
+            .dropdown .dropbtn {
+                font-size: 16px;
+                text-align: center;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                text-decoration: none;
+                box-sizing: content-box;
+            }
+            /* highlight hover nav */
+            .navbar a:hover,
+            .dropdown:hover .dropbtn {
+                background-color: rgb(80, 149, 170)
+            }
+            /* Dropdown content (hidden by default) */
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+            /* dropdown insides deez nuts */
+            .dropdown-content a {
+                
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            /* wooshy wooshy hover deez nuts */
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+            /* Show the dropdown menu on hover */
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            /*Will accidentally type in Deeznuts, will this deduct my grades?? idek anymore who cares?*/
+            .alignDeezNuts {
+                display: flex;
+                justify-content: center; /* Horizontally center */
+                align-items: center; /* Vertically center */
+            }
+            
+            /*Goofy ahh Slideshow time*/
+
+            .slide-cont{
+                margin:auto;
+                flex: 1; 
+                padding: 10px; 
+                position: relative;
+            }
+            .meSlides{
+                display: none;
+                width: 100%;
+            }
+            .prev, .next{
+                cursor: pointer;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                padding: 16px;
+                margin-top: -22px;
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+                transition: 0.6s ease;
+                border-radius: 0 3px 3px 0;
+                transform: translateY(-50%)
+            }
+            .prev {
+                left: 10px;
+             }
+
+            .next {
+                right: 10px;
+            }      
+            .text {
+                color: #f2f2f2;
+                font-size: 15px;
+                position: absolute;
+                bottom: 8px;
+                width: 100%;
+                text-align: center;
+            }
+            /*dead tired of copy paste and redo waaaa*/
+            img {
+                max-height: 100vh;
+            }
+            /*Neither shall be top nor bottom, they shall stay beside forever*/
+            .elFlex{
+                display: flex;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>QuickSketchz</h1>
+        </header>
+        <!--starter-->
+
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn"> About</button>
+                <div class="dropdown-content">
+                    <a href="Artist.html">The Artist</a>
+                    <a href="History.html">History</a>
+                </div>        
+            </div>
+            <a href="Services.html">Services</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Reviews.html">Reviews</a>
+            <a href="Contact.html">Contact Me</a>
+        </div>
+
+        <!--div my beloved, presentation time-->
+        <div class="elFlex">
+            <div class="slide-cont">
+                <div class = "meSlides fade">
+                    <img src="imegs/mammamia/ponder.jpg" style="width:100%">
+                </div>
+                <div class = "meSlides fade">
+                    <img src="imegs/mammamia/IMG_7569.PNG" style="width:100%">
+                </div>
+                <div class = "meSlides fade">
+                    <img src="imegs/mammamia/Untitled136 (1).png" style="width:100%">
+                </div>
+                <div class = "meSlides fade">
+                    <img src="imegs/mammamia/IMG_7572.PNG" style="width:100%">
+                </div>
+                <div class = "meSlides fade">
+                    <img src="imegs/mammamia/Fe-.png" style="width:100%">
+                </div>
+                <div class = "meSlides fade">
+                    <img src="imegs/mammamia/SPOILER_Untitled290_20240511101634.png" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+    
+            </div>
+    
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+    
+                // Next/previous controls
+                function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                }
+    
+                // current slide
+                function showSlides(n) {
+                    const slides = document.getElementsByClassName("meSlides");
+                    if (n > slides.length) {
+                        slideIndex = 1;
+                    }
+                    if (n < 1) {
+                        slideIndex = slides.length;
+                    }
+                    for (let i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                }
+            </script>
+                <!--Page Layout:Table Style-->
+        <div class="alignDeezNuts">
+            <!--Profile I guess-->
+            <table style="border-collapse: collapse;">
+                    <tr>
+                        <td><h2 style="color:rgb(69, 73, 74)"><strong>The Artist</strong></h2></td>
+                    </tr>
+                    <tr>
+                        <td><i>"Mira"</i></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                <li>Sleep Deprived, Colleg Student</li>
+                                <li>A drawer and a coder</li>
+                                <li>Contemplates life a lot</li>
+                                <li>Will probably cry in the corner</li>
+                                <li>DISCLAIMER: I will not draw those on the left for you, only tiny images for a doller</li>
+                            </ul>
+    
+                        </td>
+                        <td> </td>
+                        <td>
+                            <figure>
+                                <img src="imegs/mammamia/wawa.jpg" style="border: 5px solid black;" width="100" height="100">
+                                <figcaption style="text-align: center;"><i>"i leik horror"</i></figcaption>
+                            </figure>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!--end of main-->
+        <footer>
+            &copy; 2024 ● Quicksketchz 
+        </footer>
+    </body>
+</html>
